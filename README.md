@@ -8,3 +8,11 @@ Algorithm libraries and snippets for competitive programming.
 - Mingw-w64
 - Clang
 - VSCode
+
+## Dependencies
+
+- onqtam/doctest
+
+## Usage
+
+- To esolve dependencies -> `scripts/init.bat`
