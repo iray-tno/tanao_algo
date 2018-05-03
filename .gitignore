@@ -33,3 +33,7 @@
 
 # IPython
 *.ipynb_checkpoints
+
+# Dependencies
+deps/*
+!deps/.gitkeep
