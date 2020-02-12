@@ -1,6 +1,3 @@
-// エディタの設定が悪くてこれが必要
-#undef _MSC_VER
-
 #ifdef _MSC_VER
 #include <Windows.h>
 double get_ms() { return (double)GetTickCount64() / 1000; }
