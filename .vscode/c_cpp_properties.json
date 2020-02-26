@@ -1,14 +1,20 @@
 {
+    "env" : {
+        "defaultIncludePath": [
+            "C:/msys64/mingw64/include/c++/9.2.0",
+            "C:/msys64/mingw64/include/c++/9.2.0/x86_64-w64-mingw32",
+            "C:/msys64/mingw64/include/c++/9.2.0/backward",
+            "C:/msys64/mingw64/x86_64-w64-mingw32/include",
+            "C:/msys64/mingw64/include"
+        ],
+        "compilerPath": "C:/Program Files/LLVM/bin/clang++.exe"
+    },
     "configurations": [
         {
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}",
-                "${MINGW_W64_CPP_PATH}",
-                "${MINGW_W64_CPP_PATH}/x86_64-w64-mingw32",
-                "${MINGW_W64_CPP_PATH}/backward",
-                "${MINGW_W64_PATH}/x86_64-w64-mingw32/include",
-                "${MINGW_W64_PATH}/include"
+                "${defaultIncludePath}"
             ],
             "defines": [
                 "_DEBUG",
@@ -21,16 +27,12 @@
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "${MINGW_W64_CPP_PATH}",
-                    "${MINGW_W64_CPP_PATH}/x86_64-w64-mingw32",
-                    "${MINGW_W64_CPP_PATH}/backward",
-                    "${MINGW_W64_PATH}/x86_64-w64-mingw32/include",
-                    "${MINGW_W64_PATH}/include"
+                    "${defaultIncludePath}"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "compilerPath": "C:/Program Files/LLVM/bin/clang++.exe",
+            "compilerPath": "${compilerPath}",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "forcedInclude": [
