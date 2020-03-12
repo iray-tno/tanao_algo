@@ -2,3 +2,4 @@
 #include "../deps/doctest.h"
 
 #include "../lib/factorial.hpp"
+#include "../lib/unionfind.hpp"
